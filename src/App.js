@@ -6,7 +6,7 @@ function Home() {
   return (
     <div style={{
       minHeight: "100vh",
-      background: "#0b1c2d",
+      background: "#122d0b",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
@@ -14,7 +14,7 @@ function Home() {
       color: "white",
       fontFamily: "Arial, sans-serif"
     }}>
-      <h1 style={{ color: "#4da8da", fontSize: "52px" }}>Ekrini</h1>
+      <h1 style={{ color: "#da8f4d", fontSize: "52px" }}>Ekrini</h1>
 
       <p style={{ fontSize: "22px", marginTop: "10px" }}>
         دارك تلقاها بسهولة
@@ -25,7 +25,7 @@ function Home() {
           marginTop: "30px",
           padding: "12px 30px",
           fontSize: "18px",
-          backgroundColor: "#4da8da",
+          backgroundColor: "#4dda93",
           border: "none",
           borderRadius: "8px",
           cursor: "pointer"
