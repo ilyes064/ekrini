@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Home() {
   return (
     <div className="hero">
       <div className="hero-content">
