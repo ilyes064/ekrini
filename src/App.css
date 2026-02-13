@@ -76,27 +76,29 @@ body {
   padding: 80px 50px;
   text-align: center;
 }
-
 .category-grid {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin-top: 40px;
 }
 
 .category-card {
-  padding: 30px;
   background: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  width: 200px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: 600;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
   cursor: pointer;
   transition: 0.3s;
 }
 
 .category-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.2);
 }
+
 
 /* WHY US */
 .whyus {
