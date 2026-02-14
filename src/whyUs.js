@@ -1,6 +1,6 @@
 export default function WhyUs() {
   return (
-    <div className="whyus">
+    <section className="whyus">
       <h2>Pourquoi choisir Ekrini ?</h2>
 
       <div className="why-grid">
@@ -16,6 +16,6 @@ export default function WhyUs() {
           📞 Support 24/7
         </div>
       </div>
-    </div>
+    </section>
   );
 }
