@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import logo from "./assets/logo.jpeg";
 
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">Ekrini</h2>
+      <img src={logo} alt="Ekrini Logo" className="logo-img" />
 
       <div className="nav-links">
         <Link to="/">Accueil</Link>

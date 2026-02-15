@@ -1,16 +1,12 @@
-export default function AnnonceCard({ title, city, price }) {
+export default function AnnonceCard({ annonce }) {
   return (
-    <div className="card">
-      <div className="card-image">
-        <span className="price-badge">{price} DT / nuit</span>
-      </div>
+    <div className="annonce-card">
+      <img src={annonce.image} alt={annonce.title} />
 
-      <div className="card-content">
-        <h3>{title}</h3>
-        <p>📍 {city}</p>
-        <button className="btn-secondary">
-          Voir détails
-        </button>
+      <div className="annonce-content">
+        <h3>{annonce.title}</h3>
+        <p className="price">{annonce.price} €</p>
+        <p className="location">{annonce.location}</p>
       </div>
     </div>
   );
